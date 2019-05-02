@@ -1,0 +1,29 @@
+.NavBar{
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.Navbar-Link:hover{
+  transform: translatey(2px);
+  transition: all 0.5s ease;
+  cursor: pointer;
+ }
+
+.background--white{background:#fff}
+
+.Padding22{padding:22px}
+
+.Padding-Bottom5{padding-bottom:5px;}
+
+.background--jgsgradient{
+   background:linear-gradient(45deg, rgba(0,113,188,1) 0%, rgba(144,216,165,1) 100%)
+}
+
+.InlineBlock{display: inline-block;}
+
+.Vertical-Align{vertical-align: middle;}
+
+.Padding-Side22{padding:0 22px}
+
+.text-white{color:#fff;}

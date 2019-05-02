@@ -1,0 +1,15 @@
+.button--success{background:#22B24C}
+
+.button--dark,.button--outline:hover{background:#454545}
+
+.button--outline{
+  background: none;
+  border: 1px solid #454545;
+  color:#454545;
+}
+
+.button--outline:hover{color:#fff}
+
+.button--JGSGradient{
+  background:linear-gradient(45deg, rgba(0,113,188,1) 0%, rgba(144,216,165,1) 100%)
+}

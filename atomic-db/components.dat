@@ -1,0 +1,194 @@
+[
+    {
+        "component": "Box",
+        "category": "Misc",
+        "description": "This is the color palette box",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "true"
+    },
+    {
+        "component": "Introduction",
+        "category": "Readme",
+        "description": "This document serves as a style guide that outlines the principles and standards in developing user interface for JG Summit. \n<br><br>\nThe purpose of this document is to drive consistency within JG Summit's many user interface. It shouldn't limit the developers\/designers\nin developing creative user interfaces for as long as they are within the boundaries of the JG Summit identity",
+        "backgroundColor": "",
+        "order": -1,
+        "has_js": "true"
+    },
+    {
+        "component": "Color",
+        "category": "Base",
+        "description": "Collection of diverse colors that represents the JG Summit brand. The color palette is flexible enough to be implemented to different user interfaces without straying away from the traditional JG Summit identity.",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "Blue-Accents",
+        "category": "Base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 5,
+        "has_js": "false"
+    },
+    {
+        "component": "Green-Accents",
+        "category": "Base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 6,
+        "has_js": "false"
+    },
+    {
+        "component": "Grey",
+        "category": "Base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 7,
+        "has_js": "false"
+    },
+    {
+        "component": "System-Colors",
+        "category": "Base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 8,
+        "has_js": "false"
+    },
+    {
+        "component": "Fonts",
+        "category": "Base",
+        "description": "Create visual hierarchy through the right usage of spacing, font-weight, font-color and font-size.",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "Button",
+        "category": "Misc",
+        "description": "This is the base button",
+        "backgroundColor": "",
+        "order": -8,
+        "has_js": "false"
+    },
+    {
+        "component": "Logo",
+        "category": "Atoms",
+        "description": "The JG Summit Holdings, Inc. corporate signature consists of the symbol and the logotype. The signature is the main identifying mark which represents our company. <br> <br>\n\nAccess the logo guidelines ",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "Buttons",
+        "category": "Atoms",
+        "description": "Buttons must be easily identifiable by the user, and they must be grouped and placed accordingly to its function. Below are sample implementations of button styles that do not limit the designer\/developer in changing some of the attributes (by adding rounded borders or changing the padding), yet still retains the JG Summit branding\n<br><br>\nSample implementations of the JG brand on buttons",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "Headings",
+        "category": "Atoms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "Button-Dark-BG",
+        "category": "Atoms",
+        "description": "Use if the background is dark, to create a contrast between the button and the background.",
+        "backgroundColor": "#454545",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "Menu-Bar",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "true"
+    },
+    {
+        "component": "Menu-Bar-Gradient",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "Menu-Bar-Blue",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "Side-Menu-Blue",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "Side-Menu",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "List-Blue",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 5,
+        "has_js": "false"
+    },
+    {
+        "component": "List-Green",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 6,
+        "has_js": "false"
+    },
+    {
+        "component": "Font-Size",
+        "category": "Base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "Font-Weight",
+        "category": "Base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "Letter-Spacing",
+        "category": "Base",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "Article",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "#f2f2f2",
+        "order": 7,
+        "has_js": "false"
+    }
+]

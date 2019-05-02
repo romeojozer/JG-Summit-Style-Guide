@@ -1,0 +1,22 @@
+[
+    {
+        "category": "Misc",
+        "order": 4
+    },
+    {
+        "category": "Readme",
+        "order": 0
+    },
+    {
+        "category": "Base",
+        "order": 1
+    },
+    {
+        "category": "Atoms",
+        "order": 2
+    },
+    {
+        "category": "Organisms",
+        "order": 3
+    }
+]

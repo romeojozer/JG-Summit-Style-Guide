@@ -1,0 +1,14 @@
+<div class="font-size120">Font-Size120</div>
+<div class="font-size90">Font-Size90</div>
+<div class="font-size72">Font-Size72</div>
+<div class="font-size60">Font-Size60</div>
+<div class="font-size56">Font-Size56</div>
+<div class="font-size48">Font-Size48</div>
+<div class="font-size36">Font-Size36</div>
+<div class="font-size28">Font-Size28</div>
+<div class="font-size24">Font-Size24</div>
+<div class="font-size18">Font-Size18</div>
+<div class="font-size16">Font-Size16</div>
+<div class="font-size14">Font-Size14</div>
+<div class="font-size12">Font-Size12</div>
+<div class="font-size8">Font-Size8</div>

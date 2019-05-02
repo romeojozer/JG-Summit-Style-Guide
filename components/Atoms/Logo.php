@@ -1,0 +1,1 @@
+<a href="https://jgsoffice.sharepoint.com/:f:/s/JGSIT/ErC3-laiuJ1LqI9iO3VqMs8BgvBVyQy90Fuae49hjFyhtA?e=jj1ybj" target="_blank"><img width="120" src="https://jgsoffice.sharepoint.com/sites/JGSIT/Shared%20Documents/General/Logo%20Guidelines/JGS/Logo/jgsummit%20logo%20vertical.jpg" alt="JG Summit Holdings"></a><br>
