@@ -6,7 +6,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
-
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
 code[class*="language-"],
 pre[class*="language-"] {
   color: black;
@@ -731,6 +731,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
   color: #7A7A7A;
   font-family: $font1;
 }*/ }
+  #atomsWrap{background:#f9f9f9}
   #atomsWrap [class*='nb-'] {
     position: relative;
     -moz-box-sizing: border-box;
@@ -803,12 +804,16 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
   #atomsWrap .atomic-h1 {
     margin-bottom: 24px;
     margin-top: 0;
-    color: #3d4a57;
-    font-weight: 400;
-    font-family: 'Source Sans Pro', sans-serif,calibri;;
-    font-size: 36px;
+    color: #218BEC;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif,calibri;
+    font-size: 18px;
     padding: 6px 0;
-    line-height: 1.1; }
+    line-height: 1.1;
+    border-bottom: 1px solid #0072BC;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
   #atomsWrap .formGroup-check {
     margin-bottom: 24px; }
     #atomsWrap .formGroup-check label {
@@ -946,7 +951,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
     cursor: pointer; }
   #atomsWrap .compNotes {
     font-size: 16px;
-    color: #7A7A7A;
+    color: #676767;
     margin-bottom: 20px;
     max-width: 700px;
     font-weight: 300; }
@@ -1095,9 +1100,9 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
     padding: 40px;
     padding-left: 290px;
     width: 100%;
-    padding-top: 30px; }
-  #atomsWrap .compTitle, #atomsWrap .compNotes, #atomsWrap .nav-tabs-atomic {
-    font-family: 'Source Sans Pro', sans-serif,calibri;
+    padding-top: 10px; }
+  #atomsWrap .compNotes, #atomsWrap .nav-tabs-atomic {
+    font-family: 'Source Serif Pro', serif;
 
    }
   #atomsWrap code, #atomsWrap kbd, #atomsWrap pre, #atomsWrap samp {
@@ -1113,9 +1118,6 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
       padding-left: 20px !important;
       width: 100%; } }
   #atomsWrap .atoms-side {
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
-    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
     height: 100%;
     background-size: 200px;
     background: #fff;
@@ -1153,7 +1155,6 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
     display: inline-block;
     border-radius: 4px;
     margin-left: 25px;
-    display: none;
    }
   #atomsWrap .aa_fileSection__file {
     padding-left: 39px; }
@@ -1234,7 +1235,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
     margin-left: 15px;
     position: relative;
     border: 1px dashed;
-    display: none;
+
   }
   #atomsWrap .catAdd .fa {
     font-size: 12px;
@@ -1432,7 +1433,7 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
       background: none;
       color: #616161;
       padding: 8px;
-      display: none;
+
     }
   #atomsWrap .codeBlocks {
     box-shadow: none; }
@@ -1483,13 +1484,12 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
     margin-top: 0; }
   #atomsWrap .compTitle {
     display: block;
-    color: #0072BC;
+    color: #575757;
     padding-left: 0px;
     max-height: 25px;
-    font-size: 24px;
-    text-transform: uppercase;
+    font-size: 28px;
     font-weight: 700;
-    letter-spacing: 4px;
+    font-family: 'Source Sans Pro', sans-serif,calibri;
   }
     #atomsWrap .compTitle a {
       text-decoration: none;
@@ -1574,7 +1574,8 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
   #atomsWrap .u_textUnderline {
     text-decoration: underline; }
   #atomsWrap .componentHasBg {
-    padding: 20px; }
+    padding: 24px;
+    border: 1px solid #e0e0e0; }
   #atomsWrap .delete-txt {
     background: none;
     border: none;

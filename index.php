@@ -4,8 +4,8 @@
     <title>JG Summit Style Guide</title>
 
     <?php include("atomic-head.php"); ?>
-
     <style>
+      @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
       @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
         html, body {
             height: 100%;
@@ -44,7 +44,7 @@
         }
 
         p {
-            font-family: 'Source Sans Pro', sans-serif,calibri;
+            font-family: 'Source Serif Pro', serif;
             font-weight: 300;
           }
 
@@ -76,24 +76,28 @@
         .font-size90{font-size:90px}
 
         .font-size120{font-size:120px}
+
+        .line-height60{line-height: 60px}
+
+        .margin-top40{margin-top: 40px}
     </style>
 
 </head>
 <body>
 <div class="indexBlock">
     <div class="font-weight300 font-size32">USER INTERFACE </div>
-    <div class="font-size72">
+    <div class="font-size72 line-height60">
         <div class="inline-block font-weight400">STYLE</div>
         <div class="inline-block font-weight700">GUIDE</div>
     </div>
-    <p>This document serves as a style guide that outlines the principles and standards in developing user interface for JG Summit.
+    <p class="margin-top40">This document serves as a style guide that outlines the principles and standards in developing user interface for JG Summit.
 <br> <br>
 The purpose of this document is to drive consistency within JG Summit's many user interface. It shouldn't limit the developers/designers
 in developing creative user interfaces for as long as they are within the boundaries of the JG Summit identity
-    <a href="atomic-core/?cat=Readme">Start Here</a>.</p>
+    <br><br><a href="atomic-core/?cat=Readme">Start Here</a>.</p>
 </div>
 <img src="img\Bg.jpg" class="bg-img">
-<img class="logo-img"src="https://jgsoffice.sharepoint.com/sites/JGSIT/Shared%20Documents/General/Logo%20Guidelines/JGS/Logo/jgsummit%20logo%20vertical.jpg" width="100">
+<img class="logo-img" src="img\JG.jpg" width="100">
 </body>
 <?php include("atomic-foot.php"); ?>
 </html>

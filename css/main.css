@@ -3,15 +3,22 @@
 /* Font Family */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
 
 p,body{color:#454545}
 
 /* .button */
 
-.button, body,p{
+.button, body{
   font-family: 'Source Sans Pro', sans-serif,calibri;
   font-weight: 400;
 }
+
+p{font-family: 'Source Serif Pro', serif;}
+
+.font-family-header{font-family: 'Source Sans Pro', sans-serif,calibri}
+
+.font-family-content{font-family: 'Source Serif Pro', serif;}
 
 .button a{color:#fff}
 

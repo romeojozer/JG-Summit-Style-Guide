@@ -819,12 +819,14 @@ See http://bgrins.github.io/spectrum/themes/ for instructions.
   #atomsWrap .atomic-h1 {
     margin-bottom: 24px;
     margin-top: 0;
-    color: #3d4a57;
+    color: #575757;
     font-weight: 300;
     font-family: "Open Sans", sans-serif;
     font-size: 29px;
     padding: 6px 0;
-    line-height: 1.1; }
+    line-height: 1.1;
+
+  }
   #atomsWrap .formGroup-check {
     margin-bottom: 24px; }
     #atomsWrap .formGroup-check label {

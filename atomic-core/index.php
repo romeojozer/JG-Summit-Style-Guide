@@ -93,7 +93,7 @@ $settings = $settings->select(array());
         <div class="atoms-overflow">
 
             <div class="logo">
-                <img src="https://jgsoffice.sharepoint.com/sites/JGSIT/Shared%20Documents/General/Logo%20Guidelines/JGS/Logo/JGS%20Logo%20White.png" width="100px">
+                <img src="img\JGS-White.png" width="100px">
             </div>
 
             <div class="atoms-side_hide">
@@ -101,7 +101,7 @@ $settings = $settings->select(array());
                 <span class="navIcon js_searchTrigger  fa fa-search "></span>
                 <span class="js-hideCode navIcon fa fa-code"></span>
                 <a class="js-edit-settings navIcon navIcon-settings fa fa-gear aa_js-actionOpen aa_actionBtn"
-                   href="atomic-core/temp-forms/temp-edit-settings-form.php" style="display:none"></a>
+                   href="atomic-core/temp-forms/temp-edit-settings-form.php"></a>
 
                 <!--<span class="js-hideTitle fa fa-header"></span>
                 <span class="js-hideNotes fa fa-paragraph"></span>-->
@@ -286,7 +286,7 @@ $settings = $settings->select(array());
                     <span class="js-hideAll fa fa-eye"></span>&nbsp;
                     <a class="fa fa fa-pencil-square-o js_edit-component aa_js-actionOpen aa_actionBtn"
                        href="atomic-core/temp-forms/temp-edit-component-form.php"
-                       data-cat="<?php echo $cat; ?>" data-comp="<?php echo $component['component'] ?>" style="display:none">
+                       data-cat="<?php echo $cat; ?>" data-comp="<?php echo $component['component'] ?>">
                     </a>
                 </p>
                 <p class="compNotes"
