@@ -1,0 +1,24 @@
+.button, button{
+  background-color: #0072BC;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.button--disabled, button:disabled,.button--disabled:hover, button:disabled:hover{
+  color:#929292;
+  background:#d6d6d6;
+}
+
+.button--disabled:hover, button:disabled:hover{
+  filter: brightness(100%);
+  transform: translateY(0);
+  cursor:not-allowed;
+}

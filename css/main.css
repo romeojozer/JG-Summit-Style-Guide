@@ -22,7 +22,7 @@ p{font-family: 'Source Serif Pro', serif;}
 
 .button a{color:#fff}
 
-.button {
+.button, button{
   background-color: #0072BC;
   border: none;
   border-radius:4px;
@@ -30,19 +30,35 @@ p{font-family: 'Source Serif Pro', serif;}
   color: #fff;
   font-size: 16px;
   margin: 4px 2px;
-  padding: 15px 32px;
+  padding: 12px 32px;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease;
-
+  min-width: 170px;
 }
 
-.button:hover {
+.button--disabled, button:disabled,.button--disabled:hover, button:disabled:hover{
+  color:#929292;
+  background:#d6d6d6;
+}
+
+.button--disabled:hover, button:disabled:hover{
+  filter: brightness(100%);
+  transform: translateY(0);
+  cursor:not-allowed;
+}
+
+.button-secondary{
+    background:#F5FAFA;
+    color:#454545;
+  }
+
+.button:hover, button:hover {
   filter: brightness(120%);
   transform: translateY(-3px);
 }
 
-.button:active, .button:focus {
+.button:active, .button:focus,button:active, button:focus {
   filter: brightness(90%);
   transform: translateY(2px);
 }
@@ -85,6 +101,10 @@ p{font-family: 'Source Serif Pro', serif;}
   background:linear-gradient(45deg, rgba(0,113,188,1) 0%, rgba(144,216,165,1) 100%)
 }
 
+.button--JGSGradient2{
+   background:linear-gradient(45deg, rgba(33,139,236,1) 0%, rgba(44,188,146,1) 100%)
+}
+
 .button--Light,.button--outlineLight:hover{
   background:#fff;
   color:#454545;
@@ -94,6 +114,22 @@ p{font-family: 'Source Serif Pro', serif;}
   background: none;
   border: 1px solid #fff;
   color:#fff;}
+
+
+.button--loading,.button--loading:hover{
+  background:#E9C056;
+}
+
+.button--loading:hover{cursor:wait;}
+
+.button .line {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin: 0 3px;
+}
 
 /* Background */
 
@@ -144,7 +180,9 @@ p{font-family: 'Source Serif Pro', serif;}
 
 .background--dark4{background:#929292}
 
-.background--dark5{background:#A8A8A8}
+.background--dark5{background:#d6d6d6}
+
+.background--dark6{background:#A8A8A8}
 
 .background--white{background:#fff}
 
@@ -316,3 +354,16 @@ h1,h2,h3,h4,h5,h6{font-weight:600}
 
 .clickAnimate {
   left: 80%; }
+
+  /* Animation */
+
+.load-3 .line:nth-last-child(1) {animation: loadingC .6s .1s alternate infinite;}
+.load-3 .line:nth-last-child(2) {animation: loadingC .6s .2s alternate infinite;}
+.load-3 .line:nth-last-child(3) {animation: loadingC .6s .3s alternate infinite;}
+
+
+@keyframes loadingC {
+    0 {transform: translate(0,4px);}
+    50% {transform: translate(0,-4px);}
+    100% {transform: translate(0,0px);}
+}

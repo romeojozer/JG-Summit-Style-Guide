@@ -1,0 +1,28 @@
+.button--loading,.button--loading:hover{
+  background:#E9C056;
+}
+
+.button--loading:hover{cursor:progress;}
+
+.button .line {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin: 0 3px;
+}
+
+
+  /* Animation */
+
+.load-3 .line:nth-last-child(1) {animation: loadingC .6s .1s alternate infinite;}
+.load-3 .line:nth-last-child(2) {animation: loadingC .6s .2s alternate infinite;}
+.load-3 .line:nth-last-child(3) {animation: loadingC .6s .3s alternate infinite;}
+
+
+@keyframes loadingC {
+    0 {transform: translate(0,4px);}
+    50% {transform: translate(0,-4px);}
+    100% {transform: translate(0,0px);}
+}

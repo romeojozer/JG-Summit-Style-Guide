@@ -1,19 +1,28 @@
+/* Custom Font */
+
 /* Font Family */
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
 
 p,body{color:#454545}
 
 /* .button */
 
-.button, body,p{
+.button, body{
   font-family: 'Source Sans Pro', sans-serif,calibri;
   font-weight: 400;
 }
 
+p{font-family: 'Source Serif Pro', serif;}
+
+.font-family-header{font-family: 'Source Sans Pro', sans-serif,calibri}
+
+.font-family-content{font-family: 'Source Serif Pro', serif;}
+
 .button a{color:#fff}
 
-.button {
+.button, button{
   background-color: #0072BC;
   border: none;
   border-radius:4px;
@@ -25,15 +34,30 @@ p,body{color:#454545}
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease;
-
 }
 
-.button:hover {
+.button--disabled, button:disabled,.button--disabled:hover, button:disabled:hover{
+  color:#929292;
+  background:#d6d6d6;
+}
+
+.button--disabled:hover, button:disabled:hover{
+  filter: brightness(100%);
+  transform: translateY(0);
+  cursor:not-allowed;
+}
+
+.button-secondary{
+    background:#F5FAFA;
+    color:#454545;
+  }
+
+.button:hover, button:hover {
   filter: brightness(120%);
   transform: translateY(-3px);
 }
 
-.button:active, .button:focus {
+.button:active, .button:focus,button:active, button:focus {
   filter: brightness(90%);
   transform: translateY(2px);
 }
@@ -74,6 +98,10 @@ p,body{color:#454545}
 
 .button--JGSGradient{
   background:linear-gradient(45deg, rgba(0,113,188,1) 0%, rgba(144,216,165,1) 100%)
+}
+
+.button--JGSGradient2{
+   background:linear-gradient(45deg, rgba(33,139,236,1) 0%, rgba(44,188,146,1) 100%)
 }
 
 .button--Light,.button--outlineLight:hover{
@@ -135,7 +163,9 @@ p,body{color:#454545}
 
 .background--dark4{background:#929292}
 
-.background--dark5{background:#A8A8A8}
+.background--dark5{background:#d6d6d6}
+
+.background--dark6{background:#A8A8A8}
 
 .background--white{background:#fff}
 
@@ -216,6 +246,14 @@ h1,h2,h3,h4,h5,h6{font-weight:600}
 .text-dark4{color:#929292}
 
 .InlineBlock,.ColorPaletteBox{display: inline-block;}
+
+/* Letter Spacing */
+
+.LetterSpacing3{letter-spacing: 3px;}
+
+.LetterSpacing2{letter-spacing: 2px;}
+
+.LetterSpacing1{letter-spacing: 1px;}
 
 /* Padding */
 
