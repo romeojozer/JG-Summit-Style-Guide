@@ -7,6 +7,10 @@
 
 p,body{color:#454545}
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* .button */
 
 .button, body{
@@ -30,11 +34,11 @@ p{font-family: 'Source Serif Pro', serif;}
   color: #fff;
   font-size: 16px;
   margin: 4px 2px;
-  padding: 12px 32px;
+  padding: 8px 18px;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease;
-  min-width: 170px;
+  min-width: 150px;
 }
 
 .button--disabled, button:disabled,.button--disabled:hover, button:disabled:hover{
@@ -312,6 +316,8 @@ h1,h2,h3,h4,h5,h6{font-weight:600}
 
 .Width25{width: 25%;}
 
+.Height--Full{height: 100%}
+
 /* Margin */
 
 .MarginLeft15{margin-left:15px}
@@ -319,13 +325,11 @@ h1,h2,h3,h4,h5,h6{font-weight:600}
 .ColorWhite,.background--dark p,.background--dark {color:#fff}
 
 .ColorPaletteBox{
-  width:180px;
-  margin-right:15px;
+  width:120px;
   color:#fff;
   padding:8px;
   text-align: center;
-  border-radius:24px;
-  font-size:12px
+  font-size:12px;
 }
 /* Navigation Nar */
 

@@ -82,7 +82,7 @@
     {
         "component": "Buttons",
         "category": "Atoms",
-        "description": "Buttons must be easily identifiable by the user, and they must be grouped and placed accordingly to its function. Below are sample implementations of button styles that do not limit the designer\/developer in changing some of the attributes (by adding rounded borders or changing the padding), yet still retains the JG Summit branding\n<br><br>\nSample implementations of the JG brand on buttons",
+        "description": "Buttons must be easily identifiable by the user, and they must be grouped and placed accordingly to its function. Below are sample implementations of button styles that do not limit the designer\/developer in changing some of the attributes (by adding rounded borders or changing the padding), yet still retains the JG Summit branding\n<br><br>\nSample implementations of the JG brand on buttons:",
         "backgroundColor": "#ffffff",
         "order": 1,
         "has_js": "false"
@@ -194,7 +194,7 @@
     {
         "component": "Version1.0",
         "category": "Readme",
-        "description": "May 2, 2019: Created an online version of the FIgma document. Hosted on Heroku and GitHub.",
+        "description": "Changes May 6 2019:<br>\n-----<br>\nChanged index bg from jpg to svg <br>\nChanged padding of base button <br>\nAdded dark6 (color palette)<br>\nAdded buttons states (disabled and loading) <br>\nAdded description for font-family<br>",
         "backgroundColor": null,
         "order": 1,
         "has_js": null
