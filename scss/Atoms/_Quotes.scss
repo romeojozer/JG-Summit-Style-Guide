@@ -1,0 +1,22 @@
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    font-size: 18px;
+    font-style: oblique;
+
+}
+
+q::before{
+  font-size:28px;
+  font-weight: 700;
+  vertical-align: sub;
+  content: open-quote;
+  font-weight: 700;
+}
+
+q::after{
+  font-size:28px;
+  font-weight: 700;
+  vertical-align: sub;
+  content: close-quote;
+  font-weight: 700;
+}

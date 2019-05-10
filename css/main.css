@@ -23,7 +23,7 @@ a:hover{cursor:pointer}
   font-weight: 400;
 }
 
-p{font-family: 'Source Serif Pro', serif;}
+p, q{font-family: 'Source Serif Pro', serif;}
 
 .font-family-header{font-family: 'Source Sans Pro', sans-serif,calibri}
 
@@ -326,6 +326,37 @@ h6{font-size:1em}
 /* Text- Align */
 
 .Text-Align--Center{text-align:center}
+
+/* Article */
+
+.article-content p::first-letter {
+    font-size:32px;
+    font-weight: 700;
+}
+
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+    font-size: 18px;
+    font-style: oblique;
+
+}
+
+q::before{
+  font-size:28px;
+  font-weight: 700;
+  vertical-align: sub;
+  content: open-quote;
+  font-weight: 700;
+}
+
+q::after{
+  font-size:28px;
+  font-weight: 700;
+  vertical-align: sub;
+  content: close-quote;
+  font-weight: 700;
+}
+
 
 /* Width */
 

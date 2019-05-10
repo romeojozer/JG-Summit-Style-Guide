@@ -238,5 +238,13 @@
         "backgroundColor": "#ffffff",
         "order": 1,
         "has_js": "false"
+    },
+    {
+        "component": "Quotes",
+        "category": "Atoms",
+        "description": "",
+        "backgroundColor": "#ffffff",
+        "order": 8,
+        "has_js": "false"
     }
 ]
