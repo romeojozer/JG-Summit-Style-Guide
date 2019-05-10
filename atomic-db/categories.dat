@@ -18,5 +18,9 @@
     {
         "category": "Organisms",
         "order": 3
+    },
+    {
+        "category": "SampleApplied",
+        "order": 6
     }
 ]

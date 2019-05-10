@@ -52,6 +52,8 @@ pre[class*="language-"] {
   padding: .1em;
   border-radius: .3em; }
 
+a:hover{cursor:pointer}
+
 .token.comment,
 .token.prolog,
 .token.doctype,

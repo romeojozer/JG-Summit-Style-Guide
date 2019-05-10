@@ -5,11 +5,16 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
 
-p,body{color:#454545}
+p,body{
+    color:#454545
+    font-size:16px;
+}
 
 html {
   scroll-behavior: smooth;
 }
+
+a:hover{cursor:pointer}
 
 /* .button */
 
@@ -208,33 +213,47 @@ p{font-family: 'Source Serif Pro', serif;}
 
 .brightness--75{filter: brightness(.75);}
 
-/* Font Size */
+/* Header */
 
 h1,h2,h3,h4,h5,h6{font-weight:600}
+
+h1{font-size:4.209em}
+
+h2{font-size:3.157em}
+
+h3{font-size:2.369em}
+
+h4{font-size:1.777em}
+
+h5{font-size:1.333em}
+
+h6{font-size:1em}
+
+/* Font Size */
 
 .font-size8{font-size:8px}
 
 .font-size12{font-size:12px}
 
-.font-size14,h6{font-size:14px}
+.font-size14{font-size:14px}
 
 .font-size16{font-size:16px}
 
-.font-size18,h5{font-size:18px}
+.font-size18{font-size:18px}
 
 .font-size24{font-size:24px}
 
-.font-size28,h4{font-size:28px}
+.font-size28{font-size:28px}
 
 .font-size32{font-size:32px}
 
-.font-size36,h3{font-size:36px}
+.font-size36{font-size:36px}
 
-.font-size48,h2{font-size:48px}
+.font-size48{font-size:48px}
 
 .font-size56{font-size:56px}
 
-.font-size60,h1{font-size:60px}
+.font-size60{font-size:60px}
 
 .font-size72{font-size:72px}
 

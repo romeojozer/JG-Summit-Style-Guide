@@ -90,7 +90,7 @@
     {
         "component": "Headings",
         "category": "Atoms",
-        "description": "",
+        "description": "Headings re-configured to match the perfect fourth scale.  To learn more about Typescale, please refer to <a href=\"https:\/\/type-scale.com\/\">this<\/a>",
         "backgroundColor": "#ffffff",
         "order": 7,
         "has_js": "false"
@@ -125,7 +125,7 @@
         "description": "",
         "backgroundColor": "",
         "order": 2,
-        "has_js": "false"
+        "has_js": "true"
     },
     {
         "component": "Side-Menu-Blue",
@@ -192,14 +192,6 @@
         "has_js": "false"
     },
     {
-        "component": "Version1.0",
-        "category": "Readme",
-        "description": "Changes May 6 2019:<br>\n-----<br>\nChanged index bg from jpg to svg <br>\nChanged padding of base button <br>\nAdded dark6 (color palette)<br>\nAdded buttons states (disabled and loading) <br>\nAdded description for font-family<br>",
-        "backgroundColor": null,
-        "order": 1,
-        "has_js": null
-    },
-    {
         "component": "Button-Disabled",
         "category": "Atoms",
         "description": "",
@@ -229,6 +221,22 @@
         "description": "",
         "backgroundColor": "#ffffff",
         "order": 6,
+        "has_js": "false"
+    },
+    {
+        "component": "Outsystems",
+        "category": "SampleApplied",
+        "description": "Access the applied style on Outsystems on the link below",
+        "backgroundColor": "#ffffff",
+        "order": -28,
+        "has_js": "false"
+    },
+    {
+        "component": "History",
+        "category": "Readme",
+        "description": "",
+        "backgroundColor": "#ffffff",
+        "order": 1,
         "has_js": "false"
     }
 ]

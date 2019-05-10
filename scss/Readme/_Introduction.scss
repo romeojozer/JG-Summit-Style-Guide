@@ -5,7 +5,16 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
 
-p,body{color:#454545}
+p,body{
+    color:#454545
+    font-size:16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover{cursor:pointer}
 
 /* .button */
 
@@ -30,10 +39,11 @@ p{font-family: 'Source Serif Pro', serif;}
   color: #fff;
   font-size: 16px;
   margin: 4px 2px;
-  padding: 15px 32px;
+  padding: 8px 18px;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease;
+  min-width: 150px;
 }
 
 .button--disabled, button:disabled,.button--disabled:hover, button:disabled:hover{
@@ -114,6 +124,22 @@ p{font-family: 'Source Serif Pro', serif;}
   border: 1px solid #fff;
   color:#fff;}
 
+
+.button--loading,.button--loading:hover{
+  background:#E9C056;
+}
+
+.button--loading:hover{cursor:wait;}
+
+.button .line {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 100%;
+  background-color: #ffffff;
+  margin: 0 3px;
+}
+
 /* Background */
 
 /* JGS Gradient */
@@ -187,33 +213,47 @@ p{font-family: 'Source Serif Pro', serif;}
 
 .brightness--75{filter: brightness(.75);}
 
-/* Font Size */
+/* Header */
 
 h1,h2,h3,h4,h5,h6{font-weight:600}
+
+h1{font-size:4.209em}
+
+h2{font-size:3.157em}
+
+h3{font-size:2.369em}
+
+h4{font-size:1.777em}
+
+h5{font-size:1.333em}
+
+h6{font-size:1em}
+
+/* Font Size */
 
 .font-size8{font-size:8px}
 
 .font-size12{font-size:12px}
 
-.font-size14,h6{font-size:14px}
+.font-size14{font-size:14px}
 
 .font-size16{font-size:16px}
 
-.font-size18,h5{font-size:18px}
+.font-size18{font-size:18px}
 
 .font-size24{font-size:24px}
 
-.font-size28,h4{font-size:28px}
+.font-size28{font-size:28px}
 
 .font-size32{font-size:32px}
 
-.font-size36,h3{font-size:36px}
+.font-size36{font-size:36px}
 
-.font-size48,h2{font-size:48px}
+.font-size48{font-size:48px}
 
 .font-size56{font-size:56px}
 
-.font-size60,h1{font-size:60px}
+.font-size60{font-size:60px}
 
 .font-size72{font-size:72px}
 
@@ -295,6 +335,8 @@ h1,h2,h3,h4,h5,h6{font-weight:600}
 
 .Width25{width: 25%;}
 
+.Height--Full{height: 100%}
+
 /* Margin */
 
 .MarginLeft15{margin-left:15px}
@@ -302,13 +344,11 @@ h1,h2,h3,h4,h5,h6{font-weight:600}
 .ColorWhite,.background--dark p,.background--dark {color:#fff}
 
 .ColorPaletteBox{
-  width:180px;
-  margin-right:15px;
+  width:120px;
   color:#fff;
   padding:8px;
   text-align: center;
-  border-radius:24px;
-  font-size:12px
+  font-size:12px;
 }
 /* Navigation Nar */
 
@@ -337,3 +377,16 @@ h1,h2,h3,h4,h5,h6{font-weight:600}
 
 .clickAnimate {
   left: 80%; }
+
+  /* Animation */
+
+.load-3 .line:nth-last-child(1) {animation: loadingC .6s .1s alternate infinite;}
+.load-3 .line:nth-last-child(2) {animation: loadingC .6s .2s alternate infinite;}
+.load-3 .line:nth-last-child(3) {animation: loadingC .6s .3s alternate infinite;}
+
+
+@keyframes loadingC {
+    0 {transform: translate(0,4px);}
+    50% {transform: translate(0,-4px);}
+    100% {transform: translate(0,0px);}
+}
