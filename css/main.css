@@ -215,7 +215,11 @@ p, q{font-family: 'Source Serif Pro', serif;}
 
 /* Header */
 
-h1,h2,h3,h4,h5,h6{font-weight:600}
+h1,h2,h3,h4,h5,h6{
+    font-weight:600;
+    margin-block-start: .55em;
+    margin-block-end: .55em;
+}
 
 h1{font-size:4.209em}
 
@@ -323,6 +327,8 @@ h6{font-size:1em}
 
 .Vertical-Align{vertical-align: middle;}
 
+.Vertical-Align-Top{vertical-align:top;}
+
 /* Text- Align */
 
 .Text-Align--Center{text-align:center}
@@ -368,6 +374,10 @@ q::after{
 
 .Height--Full{height: 100%}
 
+/* Border */
+
+.border-top-white{border-top: 1px #fff solid;}
+
 /* Margin */
 
 .MarginLeft15{margin-left:15px}
@@ -395,6 +405,23 @@ q::after{
   transition: all 0.5s ease;
   cursor: pointer;
   }
+
+/* Footer */
+
+.Copyright{
+    border-top: 1px #fff solid;
+    font-size:14px;
+    padding:15px;
+    margin-top:30px;
+  }
+
+  .Copyright-light{
+      border-top: 1px #929292 solid;
+      font-size:14px;
+      padding:15px;
+      margin-top:30px;
+    }
+
 
 /* scss/jsExample/_clickme.scss */
 .click {

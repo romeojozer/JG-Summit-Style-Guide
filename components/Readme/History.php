@@ -13,6 +13,7 @@ May 10 2019:<br>
 Added type-scale to headings<br>
 Added sample pages (OutSystems)<br>
 Added Quotes<br>
+Added Footer<br>
 </h6>
 
 </div>

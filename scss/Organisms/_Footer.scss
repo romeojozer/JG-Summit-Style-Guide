@@ -1,0 +1,41 @@
+.NavBar{
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+.Navbar-Link:hover{
+  transform: translatey(2px);
+  transition: all 0.5s ease;
+  cursor: pointer;
+ }
+
+.background--white{background:#fff}
+
+.Padding22{padding:22px}
+
+.Padding-Bottom5{padding-bottom:5px;}
+
+.Padding-Side22{padding:0 22px}
+
+.background--jgsBlue3{background:#0072BC}
+
+.InlineBlock{display: inline-block;}
+
+.Vertical-Align{vertical-align: middle;}
+
+.text-white{color:#fff;}
+
+.Copyright{
+    border-top: 1px #fff solid;
+    font-size:14px;
+    padding:15px;
+    margin-top:30px;
+ }
+
+  .Copyright-light{
+      border-top: 1px #929292 solid;
+      font-size:14px;
+      padding:15px;
+      margin-top:30px;
+}
