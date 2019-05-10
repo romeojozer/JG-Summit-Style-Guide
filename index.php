@@ -10,6 +10,7 @@
         html, body {
             height: 100%;
             background: #fff;
+            color:#454545
         }
         .indexBlock {
             position: relative;
