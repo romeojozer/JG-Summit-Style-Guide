@@ -47,6 +47,7 @@
         p {
             font-family: 'Source Serif Pro', serif;
             font-weight: 300;
+            color:#575757;
           }
 
         a {
@@ -83,6 +84,8 @@
         .margin-top40{margin-top: 40px}
 
         .path{opacity: .5}
+
+        .letterspacing10{letter-spacing: 10px}
 
     /*    .path {
           stroke-dasharray: 2400;
@@ -125,10 +128,10 @@
 </head>
 <body>
 <div class="indexBlock">
-    <div class="font-weight300 font-size32">USER INTERFACE </div>
+    <div class="font-weight300 font-size32 letterspacing10">USER INTERFACE </div>
     <div class="font-size72 line-height60">
-        <div class="inline-block font-weight400">STYLE</div>
-        <div class="inline-block font-weight700">GUIDE</div>
+        <div class="inline-block font-weight900">STYLE</div>
+        <div class="inline-block font-weight900">GUIDE</div>
     </div>
     <p class="margin-top40">This document serves as a style guide that outlines the principles and standards in developing user interface for JG Summit.
 <br> <br>

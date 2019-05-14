@@ -92,7 +92,7 @@
         "category": "Atoms",
         "description": "Headings re-configured to match the perfect fourth scale.  To learn more about Typescale, please refer to <a href=\"https:\/\/type-scale.com\/\">this<\/a>",
         "backgroundColor": "#ffffff",
-        "order": 7,
+        "order": 8,
         "has_js": "false"
     },
     {
@@ -244,7 +244,7 @@
         "category": "Atoms",
         "description": "",
         "backgroundColor": "#ffffff",
-        "order": 8,
+        "order": 9,
         "has_js": "false"
     },
     {

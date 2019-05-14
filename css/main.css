@@ -129,6 +129,8 @@ p, q{font-family: 'Source Serif Pro', serif;}
   background:#E9C056;
 }
 
+
+
 .button--loading:hover{cursor:wait;}
 
 .button .line {
@@ -444,7 +446,12 @@ q::after{
 
 
 @keyframes loadingC {
-    0 {transform: translate(0,4px);}
+    0% {transform: translate(0,4px);}
     50% {transform: translate(0,-4px);}
     100% {transform: translate(0,0px);}
+}
+
+@keyframes loading-success {
+    0% {background-color:#E9C056;}
+    100% {background-color:#22B24C;}
 }
