@@ -1,6 +1,6 @@
 <div class="background--white">
-    <div class="Padding22 background--jgsGreen4">
-        <div class="font-size32 text-white">Design Guidelines</div> 
+    <div class="background--jgsGreen4 List-Title">
+        <div class="font-size32 text-white ">Design Guidelines</div> 
     </div>
     <div class="Padding15 background--jgsGreen5">
         <div class="font-size14">Search For <input class="Padding5 font-size12" type="text" name="FirstName" value="Enter Keyword"></div> 

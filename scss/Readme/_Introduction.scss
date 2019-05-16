@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
 
 p,body{
     color:#454545
@@ -18,14 +19,14 @@ a:hover{cursor:pointer}
 
 /* .button */
 
-.button, body{
-  font-family: 'Source Sans Pro', sans-serif,calibri;
+.button, body, button, .button,label,input{
+  font-family: 'Roboto', sans-serif;;
   font-weight: 400;
 }
 
 p, q{font-family: 'Source Serif Pro', serif;}
 
-.font-family-header{font-family: 'Source Sans Pro', sans-serif,calibri}
+.font-family-header{font-family: 'Roboto', sans-serif,calibri}
 
 .font-family-content{font-family: 'Source Serif Pro', serif;}
 
@@ -39,7 +40,7 @@ p, q{font-family: 'Source Serif Pro', serif;}
   color: #fff;
   font-size: 16px;
   margin: 4px 2px;
-  padding: 8px 18px;
+  padding: 12px 18px;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease;
@@ -129,6 +130,8 @@ p, q{font-family: 'Source Serif Pro', serif;}
   background:#E9C056;
 }
 
+
+
 .button--loading:hover{cursor:wait;}
 
 .button .line {
@@ -215,7 +218,11 @@ p, q{font-family: 'Source Serif Pro', serif;}
 
 /* Header */
 
-h1,h2,h3,h4,h5,h6{font-weight:600}
+h1,h2,h3,h4,h5,h6{
+    font-weight:600;
+    margin-block-start: .55em;
+    margin-block-end: .55em;
+}
 
 h1{font-size:4.209em}
 
@@ -319,9 +326,21 @@ h6{font-size:1em}
 
 .Padding-Side22{padding:0 22px}
 
+.Padding-Left0{padding-left:0px}
+
+.Padding-Side15{padding:0 10px}
+
+/* Margin */
+
+.Margin-Top15{margin-top: 15px}
+
+.Margin-Top30{margin-top: 30px}
+
 /* Vertical-Align */
 
 .Vertical-Align{vertical-align: middle;}
+
+.Vertical-Align-Top{vertical-align:top;}
 
 /* Text- Align */
 
@@ -368,6 +387,10 @@ q::after{
 
 .Height--Full{height: 100%}
 
+/* Border */
+
+.border-top-white{border-top: 1px #fff solid;}
+
 /* Margin */
 
 .MarginLeft15{margin-left:15px}
@@ -396,6 +419,27 @@ q::after{
   cursor: pointer;
   }
 
+/* List Style */
+
+.List-Title{padding: 22px 15px;}
+
+/* Footer */
+
+.Copyright{
+    border-top: 1px #fff solid;
+    font-size:14px;
+    padding:15px;
+    margin-top:30px;
+  }
+
+  .Copyright-light{
+      border-top: 1px #929292 solid;
+      font-size:14px;
+      padding:15px;
+      margin-top:30px;
+    }
+
+
 /* scss/jsExample/_clickme.scss */
 .click {
   cursor: pointer;
@@ -417,7 +461,52 @@ q::after{
 
 
 @keyframes loadingC {
-    0 {transform: translate(0,4px);}
+    0% {transform: translate(0,4px);}
     50% {transform: translate(0,-4px);}
     100% {transform: translate(0,0px);}
 }
+
+@keyframes loading-success {
+    0% {background-color:#E9C056;}
+    100% {background-color:#22B24C;}
+}
+
+/* Label Fields */
+
+.Floating-Label{position: relative;}
+
+input:focus ~ .Animated-Label, input:valid ~ .Animated-Label  {
+  position: absolute;
+  left:5px;
+  top:-7px;
+  margin:auto;
+  font-size:12px;
+  background: #fff;
+}
+
+input:valid ~ label{color:#22B24C;}
+
+input:valid{border: 1px #22B24C solid;}
+
+.Floating-Label label {
+  position: absolute;
+  left:5px;
+  top:11px;
+  margin:auto;
+  font-size: 16px;
+  padding:4px;
+  pointer-events: none;
+}
+
+label{
+    transition:0.2s ease all;
+    position: relative;
+}
+
+input{
+    padding: 12px;
+    box-shadow: none;
+    border: 1px #454545 solid;
+    min-width: 250px;
+    margin-top: 5px;
+  }

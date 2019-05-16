@@ -204,12 +204,14 @@ $settings = $settings->select(array());
 
     </aside>
 
-
+  <!--  <div class="BannerHeader"></div> -->
     <div class="atoms-main">
 
         <div class="se-pre-con">
             <div class="se-pre-con-inner"></div>
         </div>
+
+
 
         <?php if (!empty($_GET['cat']) || !empty($_GET['search'])) { ?>
 

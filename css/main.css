@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
 
 p,body{
     color:#454545
@@ -18,14 +19,14 @@ a:hover{cursor:pointer}
 
 /* .button */
 
-.button, body{
-  font-family: 'Source Sans Pro', sans-serif,calibri;
+.button, body, button, .button,label,input{
+  font-family: 'Roboto', sans-serif;;
   font-weight: 400;
 }
 
 p, q{font-family: 'Source Serif Pro', serif;}
 
-.font-family-header{font-family: 'Source Sans Pro', sans-serif,calibri}
+.font-family-header{font-family: 'Roboto', sans-serif,calibri}
 
 .font-family-content{font-family: 'Source Serif Pro', serif;}
 
@@ -39,7 +40,7 @@ p, q{font-family: 'Source Serif Pro', serif;}
   color: #fff;
   font-size: 16px;
   margin: 4px 2px;
-  padding: 8px 18px;
+  padding: 12px 18px;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease;
@@ -325,6 +326,16 @@ h6{font-size:1em}
 
 .Padding-Side22{padding:0 22px}
 
+.Padding-Left0{padding-left:0px}
+
+.Padding-Side15{padding:0 10px}
+
+/* Margin */
+
+.Margin-Top15{margin-top: 15px}
+
+.Margin-Top30{margin-top: 30px}
+
 /* Vertical-Align */
 
 .Vertical-Align{vertical-align: middle;}
@@ -408,6 +419,10 @@ q::after{
   cursor: pointer;
   }
 
+/* List Style */
+
+.List-Title{padding: 22px 15px;}
+
 /* Footer */
 
 .Copyright{
@@ -455,3 +470,43 @@ q::after{
     0% {background-color:#E9C056;}
     100% {background-color:#22B24C;}
 }
+
+/* Label Fields */
+
+.Floating-Label{position: relative;}
+
+input:focus ~ .Animated-Label, input:valid ~ .Animated-Label  {
+  position: absolute;
+  left:5px;
+  top:-7px;
+  margin:auto;
+  font-size:12px;
+  background: #fff;
+}
+
+input:valid ~ label{color:#22B24C;}
+
+input:valid{border: 1px #22B24C solid;}
+
+.Floating-Label label {
+  position: absolute;
+  left:5px;
+  top:11px;
+  margin:auto;
+  font-size: 16px;
+  padding:4px;
+  pointer-events: none;
+}
+
+label{
+    transition:0.2s ease all;
+    position: relative;
+}
+
+input{
+    padding: 12px;
+    box-shadow: none;
+    border: 1px #454545 solid;
+    min-width: 250px;
+    margin-top: 5px;
+  }

@@ -1,0 +1,16 @@
+label{
+    transition:0.2s ease all;
+    position: relative;
+}
+
+input{
+    padding: 12px;
+    box-shadow: none;
+    border: 1px #454545 solid;
+    min-width: 250px;
+    margin-top: 5px;
+ }
+ 
+input:valid ~ label{color:#22B24C;}
+
+input:valid{border: 1px #22B24C solid;}

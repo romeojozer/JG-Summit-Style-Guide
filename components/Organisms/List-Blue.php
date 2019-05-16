@@ -1,5 +1,5 @@
 <div class="background--white">
-    <div class="Padding22 background--jgsBlue3">
+    <div class="List-Title background--jgsBlue3">
         <div class="font-size32 text-white">Design Guidelines</div> 
     </div>
     <div class="Padding15 background--jgsBlue4">

@@ -1,0 +1,24 @@
+.Floating-Label{position: relative;}
+
+input:focus ~ .Animated-Label, input:valid ~ .Animated-Label  {
+  position: absolute;
+  left:5px;
+  top:-5px;
+  margin:auto;
+  font-size:12px;
+  background: #fff;
+}
+
+input:valid ~ label{color:#22B24C;}
+
+input:valid{border: 1px #22B24C solid;}
+
+.Floating-Label label {
+  position: absolute;
+  left:5px;
+  top:11px;
+  margin:auto;
+  font-size: 16px;
+  padding:4px 0;
+  pointer-events: none;
+}
