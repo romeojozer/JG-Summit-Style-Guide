@@ -280,19 +280,44 @@
         "has_js": "false"
     },
     {
-        "component": "Fields",
-        "category": "Atoms",
+        "component": "Form",
+        "category": "Organisms",
         "description": "",
-        "backgroundColor": "#ffffff",
-        "order": 9,
+        "backgroundColor": "",
+        "order": 12,
         "has_js": "false"
     },
     {
-        "component": "Fields-Big",
-        "category": "Atoms",
-        "description": "Use this if there are readability issues",
+        "component": "Form-Dark",
+        "category": "Organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 13,
+        "has_js": "false"
+    },
+    {
+        "component": "Input",
+        "category": "Molecules",
+        "description": "",
         "backgroundColor": "#ffffff",
-        "order": 10,
-        "has_js": "true"
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "Input-Big",
+        "category": "Molecules",
+        "description": "",
+        "backgroundColor": "#ffffff",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "Button-Group",
+        "category": "Molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -38,
+        "has_js": "false"
     }
+
 ]

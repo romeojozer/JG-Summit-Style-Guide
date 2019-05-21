@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
 
 p,body{
-    color:#454545
+    color:#454545;
     font-size:16px;
 }
 
@@ -20,8 +20,9 @@ a:hover{cursor:pointer}
 /* .button */
 
 .button, body, button, .button,label,input{
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color:#454545;
 }
 
 p, q{font-family: 'Source Serif Pro', serif;}
@@ -39,12 +40,11 @@ p, q{font-family: 'Source Serif Pro', serif;}
   cursor: pointer;
   color: #fff;
   font-size: 16px;
-  margin: 4px 2px;
-  padding: 12px 18px;
+  padding: 8px 18px;
   text-align: center;
   text-decoration: none;
   transition: all 0.5s ease;
-  min-width: 150px;
+  min-width: 100px;
 }
 
 .button--disabled, button:disabled,.button--disabled:hover, button:disabled:hover{
@@ -142,6 +142,31 @@ p, q{font-family: 'Source Serif Pro', serif;}
   background-color: #ffffff;
   margin: 0 3px;
 }
+
+/* Button Group */
+
+.button-group{display: flex;}
+
+.button-group a{
+  padding:4px 6px;
+  min-width: 75px;
+  background: none;
+  color:#454545;
+  border:solid #d6d6d6 1px;
+  background: #fff;
+  margin:0px;
+  text-decoration: none;
+  text-align: center;
+  transition:0.2s ease all;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.button-group a:hover{transform: translatey(-3px)}
+
+.button-group a:last-child{border-radius: 0px 6px 6px 0px;}
+
+.button-group a:first-child{border-radius: 6px 0px 0px 6px; }
 
 /* Background */
 
@@ -268,11 +293,48 @@ h6{font-size:1em}
 
 .font-size120{font-size:120px}
 
+/* Font-Size By Shirt Size */
+
+.font-size-xs{font-size:0.64em}
+
+.font-size-s{font-size: 0.8em}
+
+.font-size-n{font-size: 1em}
+
+.font-size-xn{font-size: 1.25em}
+
+.font-size-m{font-size: 1.563em}
+
+.font-size-xm{font-size: 1.953em}
+
+.font-size-l{font-size: 2.441em}
+
+.font-size-xl{font-size:3.052em}
+
+
+
+
+
+
+h1{font-size:4.209em}
+
+h2{font-size:3.157em}
+
+h3{font-size:2.369em}
+
+h4{font-size:1.777em}
+
+h5{font-size:1.333em}
+
+h6{font-size:1em}
+
 /* Font Weight */
 
 .font-weight300{font-weight: 300}
 
 .font-weight400{font-weight: 400}
+
+.font-weight500{font-weight: 500}
 
 .font-weight600{font-weight: 600}
 
@@ -484,7 +546,7 @@ input:focus ~ .Animated-Label, input:valid ~ .Animated-Label  {
   background: #fff;
 }
 
-input:valid ~ label{color:#22B24C;}
+/*input:valid ~ label{color:#22B24C;}*/
 
 input:valid{border: 1px #22B24C solid;}
 
@@ -501,12 +563,21 @@ input:valid{border: 1px #22B24C solid;}
 label{
     transition:0.2s ease all;
     position: relative;
+    margin-bottom:5px;
 }
 
 input{
     padding: 12px;
     box-shadow: none;
     border: 1px #454545 solid;
-    min-width: 250px;
-    margin-top: 5px;
   }
+
+  /* Bootstrap */
+
+.form-control:focus{
+    border-color:#218BEC;
+    box-shadow: none;
+}
+
+
+footer{margin-top: 60px;}

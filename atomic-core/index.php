@@ -219,7 +219,7 @@ $settings = $settings->select(array());
             <?php if (!empty($_GET['cat'])) { ?>
                 <h1 id="modules" class="atomic-h1"><?php echo $_GET['cat']; ?> <a
                         class="fa fa fa-pencil-square-o js_cat-edit aa_js-actionOpen aa_actionBtn"
-                        href="atomic-core/temp-forms/temp-edit-category-form.php" style="display:none"
+                        href="atomic-core/temp-forms/temp-edit-category-form.php" 
                         data-cat="<?php echo $_GET['cat']; ?>">
                     </a>
                 </h1>

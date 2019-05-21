@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <title>JG Summit Style Guide</title>
-
     <?php include("atomic-head.php"); ?>
     <style>
+
       @import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro:300,400,600,700');
       @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900');
       @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
+
         html, body {
             height: 100%;
             background: #fff;
-            color:#454545
+            color:#454545;
         }
         .indexBlock {
             position: relative;
@@ -45,44 +47,11 @@
             box-shadow: 0px 0px 32px 4px rgba(0, 0, 0, 0.25);
         }
 
-        p {
-            font-family: 'Source Serif Pro', serif;
-            font-weight: 300;
-            color:#575757;
-          }
-
-        a {
-            color: #0072BC;
-            font-weight:bold;
-        }
         .logo{
             display: inline-block;
             margin-bottom: 61px;
         }
 
-        .font-weight300{font-weight: 300}
-
-        .font-weight400{font-weight: 400}
-
-        .font-weight600{font-weight: 600}
-
-        .font-weight700{font-weight: 700}
-
-        .font-weight900{font-weight: 900}
-
-        .font-size32{font-size:32px}
-
-        .font-size60,h1{font-size:60px}
-
-        .font-size72{font-size:72px}
-
-        .font-size90{font-size:90px}
-
-        .font-size120{font-size:120px}
-
-        .line-height60{line-height: 60px}
-
-        .margin-top40{margin-top: 40px}
 
         .path{opacity: .5}
 

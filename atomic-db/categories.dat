@@ -1,7 +1,7 @@
 [
     {
         "category": "Misc",
-        "order": 4
+        "order": 5
     },
     {
         "category": "Readme",
@@ -17,10 +17,14 @@
     },
     {
         "category": "Organisms",
-        "order": 3
+        "order": 4
     },
     {
         "category": "SampleApplied",
-        "order": 5
+        "order": 6
+    },
+    {
+        "category": "Molecules",
+        "order": 3
     }
 ]
